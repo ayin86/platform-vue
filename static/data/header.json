@@ -1,0 +1,57 @@
+{
+	"nav":{
+		"dashboard":{"id":1,"label":"工作台","icon":"fal fa-home","url":"/"},
+		"map":{"id":2,"label":"地图","icon":"fal fa-map","url":"/map"},
+		"dashboardDemo":{"id":3,"label":"工作台DM","icon":"fal fa-home","url":"/dashboardDemo"},
+		"project":{"id":4,"label":"项目管理","icon":"fal fa-th-large","url":"/project","children":[
+			{"id":4.1,"label":"新增项目","icon":"fal fa-tasks","url":"/project/formEdit/projectEdit"},
+			{"id":4.2,"label":"项目列表","icon":"fal fa-clipboard-list","url":"/project/grid/projectList"}
+		]},
+		"task":{"id":5,"label":"任务管理","icon":"fal fa-th","url":"/task"},
+		"document":{"id":6,"label":"文档管理","icon":"fal fa-video","url":"/document","children":[
+			{"id":6.1,"label":"文档管理的树","icon":"fal fa-th-list","url":"/document/grid/grid2"},
+				{"id":6.2,"label":"待阅","icon":"fal fa-newspaper","url":"/document/grid/grid5"},
+				{"id":6.3,"label":"通过router切换传参展示不同的树","icon":"fal fa-book","url":"/document/cc"}, 
+				{"id": 6.4,"label": "测一级 3","url":"/document/form/grid6"}
+		]},
+		"system":{"id":7,"label":"客户管理","icon":"fal fa-cloud","url":"/system"},
+		"member":{"id":8,"label":"人员管理","icon":"fal fa-exclamation-square","url":"/member"},
+		"system":{"id":9,"label":"系统管理","icon":"fal fa-cloud","url":"/system"},
+		"eMail":{"id":10,"label":"测试邮件","icon":"fal fa-envelope","url":"/eMail","children":[
+			{"id":10.1,"label":"收件箱","icon":"fal fa-envelope","url":"/eMail/inbox","children":[
+				{"id":10.11,"label":"垃圾邮件","exclamation-square":"","url":"/eMail/inbox-1"},
+				{"id":10.12,"label":"通知","icon":"fal fa-comment-alt-lines","url":"/eMail/inbox-2"}
+			]},
+				{"id":10.2,"label":"发件箱","icon":"fal fa-envelope-square","url":"/eMail/send"},
+				{"id":10.3,"label":"废纸篓","icon":"fal fa-trash-alt","url":"/eMail/west"}
+		]},
+		"test":{"id":11.1,"label":"测试多级","icon":"fal fa-anchor","url":"/test","children":[
+			{"id":11.2,"label":"测试数据2-1","icon":"fal fa-file","url":"/test/temp2-1"},
+			{"id":11.3,"label":"测试数据2-2","icon":"fal fa-file","url":"/test/temp2-2"},
+			{"id":11.4,"label":"测试数据2-3","icon":"fal fa-file","url":"/test/temp2-3"},
+			{"id":11.5,"label":"测试数据2-4","icon":"fal fa-book","url":"/test/temp2-4","children": [
+				{"id": 11.51,"label": "测试数据3-1","icon":"fal fa-eye","url":"/test/temp2-4-1"},
+				{"id": 11.52,"label": "测试数据3-2","url":"/test/temp2-4-1"}
+			]},
+			{"id": 11.6,"label": "测试数据2-5","url":"/test/temp2-5","children": [
+				{"id": 11.61,"label": "测试数据3-1","url":"/test/temp2-5-1"},
+				{"id": 11.62,"label": "测试数据3-2","url":"/test/temp2-5-2"}
+			]},
+			{"id": 11.7,"label": "测试数据2-6","url":"/test/temp2-6","children": [
+				{"id": 11.71,"label": "测试数据3","url":"/test/temp2-6-1"}
+			]},
+			{"id": 11.8,"label": "测试数据2-7","url":"/test/temp2-7"}
+		]}
+	},
+	"userInfo":{
+		"headImg":"static/images/head/header.jpg",
+		"userName":"Admin",
+		"userID":3234221
+	},
+	"message":{
+		"level-0":{"desc":"未知","count":3},
+		"level-1":{"desc":"通知","count":6},
+		"level-2":{"desc":"告警","count":0},
+		"level-3":{"desc":"严重","count":2}
+	}
+}

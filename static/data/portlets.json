@@ -1,0 +1,10 @@
+{
+	"portlets":{
+		"overview":[
+		    {"company":"水利部松辽水利委员会","project":"信息门户","date":"2018年1月-2019年5月","people":5,"achieved":80},
+		    {"company":"黄河水利委员会规划设计研究院","project":"移动办公","date":"2017年1月-2018年9月","people":3,"achieved":90},
+			{"company":"中粮集团","project":"贸易门户工作台","date":"2018年5月-2019年12月","people":6,"achieved":5},
+		    {"company":"首钢迁钢","project":"信息管控系统","date":"2018年3月-2020年3月","people":12,"achieved":20}
+		]
+	}
+}

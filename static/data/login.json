@@ -1,0 +1,23 @@
+{
+	"login":{
+		"qrcode":"static/images/demo/qrcode.png",
+		"app":[
+		  {"name":"Android版","qrcode":"static/images/demo/qrcode.png","link":"http://www.baidu.com","desc":"适用于安卓系统的智能手机"},
+		  {"name":"IOS版","qrcode":"static/images/demo/qrcode.png","link":"https://browser.qq.com","desc":"适用于苹果品牌的智能手机"}
+		]
+	},
+	"userInfo":[
+	  {"id":"ayin","pass":"test123"},          
+	  {"id":"admin","pass":"123"},          
+	  {"id":"cliang","pass":"goodman"}          
+	],
+	"browser":{
+		"about":"请升级您的浏览器，我们提供了以下浏览器",
+		"list":[
+		  {"name":"Chrome","icon":"","link":"http://www.baidu.com","desc":"this is Chrom desc"},
+		  {"name":"Edge","icon":"","desc":"this is Edge desc"},
+		  {"name":"Firefox","icon":"","link":"http://www.163.com","desc":"this is Firefox desc"},
+		  {"name":"QQ","icon":"","link":"https://browser.qq.com","desc":"this is QQ desc"}
+		]
+	}
+}
